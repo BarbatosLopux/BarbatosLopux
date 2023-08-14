@@ -1,16 +1,16 @@
-### Hi there 👋
+# ¡Hola soy *Kevin Esteban*!😄 Ingeniero en *topografia* y *futuro programador* 🧑‍🔧
 
-<!--
-**BarbatosLopux/BarbatosLopux** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Acerca de mi 🤔: 
+Soy una persona enfocada en el aprendizaje y de aprender nuevas tecnologias, me considero una persona apasionada e intituiva, siempre con la mejor disposicion para aprender nuevos temas 🧠
+### Mis conocimientos: 
+- Tengo varios reconocimientos y certificados en el apartado de catrastro por el IGAC
+- Manejo HTML 5, Python y CSS
 
-Here are some ideas to get you started:
+*Un hombre que se atreve a perder una hora no ha descubierto el valor de la vida*
+**Charles Darwin**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  ```It's time to the future..```
+#### Contactame!!
+  |Numero telefonico | Correo electronico|
+  |-------|---------|
+  |3188259326  | sneideresteban@gmail.com | 
