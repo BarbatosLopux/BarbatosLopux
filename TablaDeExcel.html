@@ -10,68 +10,141 @@
         <thead>
             <tr>
                 <th>Etiqueta o atributo obsoleto</th>
+                <th>Descripcion</th>
                 <th>Alternativa actual </th>
-                <th>Ejemplo(Con la alternativa o con la ovsoleta en su defecto) </th>
+                <th>Ejemplo(Con la alternativa o con la obsoleta en su defecto) </th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
+                <td>applet</td>
+                <td> Un applet es un programa, componente o aplicación que se ejecuta dentro del contexto de otro programa o aplicación escrito en JAVA.</td>
+                <td>object</td>
+                <td> recurso externo, que puede ser tratado como una imagen, un contexto de navegación anidado, o como un recurso que debe ser manejado por un complemento.</td>
             </tr>
             <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
+                <td>acronym</td>
+                <td> se utilizaba en HTML para definir un acronimo o abreviar palabras en el contenido web </td>
+                <td>abbr</td>
+                <td> &lt;p&gt; "El &lt;abbr title="League Of Legends"&gt;LOL&lt;/abbr&gt; es un juego de estrategia&lt;/p&gt;</td>
+
             </tr>
             <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
+                <td>bgsound</td>
+                <td> Incorpora sonidos de fondo que se ejecuta cuando se entra a la pagina. Solo es interpretada por Internet Explorer. Acepta formatos Mp3, MID, AU y WAV. <audio> No se reproduce solo, se necesita que el usuario oprima play con el controls que se agrega a la etiqueta y  pasa con el preload y que cargue el archivo de audio.</td>
+                <td>audio;No funciona sin atributos de control, controls, autoplay y preload</td>
+                <td> <p>&lt;audio src="audio.mp3"&gt;&lt;/audio&gt;</p></td>
             </tr>
             <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
+                <td>dir</td>
+                <td> La etiqueta dir era una etiqueta obsoleta en HTML que se utilizaba para 
+                    crear una lista de elementos de directorio. Cada elemento en la lista representaba
+                     un ítem dentro de un directorio, como una carpeta en un sistema de archivos</td>
+                <td>Actualmente se recomienda utilizar <ul></ul> para listas no ordenadas junto con &lt;li&gt; que es el elemento de la lista.</td>
+                <td><pre>
+                    &lt;ul&gt;
+                    &lt;li&gt;lista1&lt;/li&gt;
+                    &lt;li&gt;lista2&lt;/li&gt;
+                    &lt;li&gt;lista3&lt;/li&gt;
+                    &lt;/ul&gt;
+                    </pre>
+                    </td>
             </tr>
             <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
+                <td>frameset</td>
+                <td> Los marcos (frames) son áreas separadas y ajustables dentro de una página web
+                    donde se pueden cargar diferentes documentos HTML</td>
+                <td>CSS Grid o Div</td>
+                <td><pre>
+                    &lt;style&gt;
+                      .wrapper {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-gap: 20px;
+                      }
+                      .frame {
+                        border: 1px solid black;
+                      }
+                    &lt;/style&gt;
+                    
+                    &lt;div class="wrapper"&gt;
+                      &lt;div class="frame"&gt;
+                        &lt;iframe src="https://www.example.com"&gt;&lt;/iframe&gt;
+                      &lt;/div&gt;
+                      &lt;div class="frame"&gt;
+                        &lt;iframe src="https://www.anotherexample.com"&gt;&lt;/iframe&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    </pre>
+                     </td>
             </tr>
             <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
+                <td>noFrames</td>
+                <td> Se usó en HTML 4 para actuar como una etiqueta alternativa para los navegadores que no admitían marcos.</td>
+                <td>No aplica</td>
+                <td><pre>
+                    &lt;frameset cols="25%,50%,25%"&gt;
+                        &lt;frame src="frame_a.htm"&gt;
+                        &lt;frame src="frame_b.htm"&gt;
+                        &lt;noframes&gt;lo siento, su navegador no maneja marcos!&lt;/noframes&gt;
+                    &lt;/frameset&gt;
+                    </pre>
+                    </td>
             </tr>
             <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
+                <td>hgroup</td>
+                <td> El elemento hgroup representa al bloque de encabezado de una seccion y usualmente agrupa encabezados consecutivos (h1 a h6).Un encabezado de niveles múltiples puede ser usado para proveer subtítulos, títulos alternativos o eslóganes.</td>
+                <td><pre>&lt;div class="container"&gt;&lt;/div&gt;</pre>
+                    </td>
+                <td><pre>
+                    &lt;hgroup&gt;
+                        &lt;h1&gt;Alien&lt;/h1&gt;
+                        &lt;h2&gt;En el espacio, nadie te escuchará gritar&lt;/h2&gt;
+                    &lt;/hgroup&gt;
+                    &lt;p&gt;La nave comercial Nostromo recibe una llamada de auxilio desde un planeta no explorado. 
+                    Luego de buscar sobrevivientes, la tripulación se dirige a casa sólo para darse cuenta de que una mortal forma de vida se les ha unido.&lt;/p&gt;
+                    
+                    &lt;!-- Ejemplo con la alternativa --&gt;
+                    
+                    &lt;div class="container"&gt;
+                        &lt;h1&gt;Alien&lt;/h1&gt;
+                        &lt;h2&gt;En el espacio, nadie te escuchará gritar&lt;/h2&gt;
+                    &lt;/div&gt;
+                    &lt;p&gt;La nave comercial Nostromo recibe una llamada de auxilio desde un planeta no explorado.
+                    Luego de buscar sobrevivientes, la tripulación se dirige a casa sólo para darse cuenta de que una mortal forma de vida se les ha unido.&lt;/p&gt;
+                    </pre>
+                    
+                     </td>
             </tr>
             <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
+                <td>isindex</td>
+                <td> Esta etiqueta se utilizaba para insertar un input de texto , y lo que escribes es buscado en el html</td>
+                <td>se usa la etiqueta input que debe estar dentro de la etiqueta form</td>
+                <td> <pre>
+                    &lt;FORM action="..." method="post"&gt;
+                    &lt;P&gt;Entre la frase a buscar: &lt;INPUT type="text"&gt;&lt;/P&gt;
+                    &lt;/FORM&gt;
+                    </pre>
+                    </td>
             </tr>
             <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
+                <td>listing, xmp</td>
+                <td> Listing fue una etiqueta similar a **pre** o **code**, es decir, se utilizaba para insertar codigo y que no fuera interpretado, sino estilizado visualmente. 
+                    El elemento HTML XMP  xmp dibuja texto entre las etiquetas de inicio y fin sin interpretar el HTML que se encuentra en medio y lo muestra usando un tipo de letra monoespaciada</td>
+                <td>pre y code</td>
+                <td> <pre>
+                    &lt;body&gt;
+                      &lt;embed src="/html/yourfile.swf" width="200" height="200"&gt;
+                        &lt;noembed&gt;&lt;img src="yourimage.gif" alt="Alternative Media"&gt;&lt;/noembed&gt;
+                      &lt;/embed&gt;
+                    &lt;/body&gt;
+                    </pre>
+                    </td>
             </tr>
-            <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
-            </tr>
-            <tr>
-                <td>*Etiqueta o atributo obsoleto*</td>
-                <td>*Alternativa actual *</td>
-                <td>*Ejemplo(Con la alternativa o con la ovsoleta en su defecto) *</td>
-            </tr>
+           
+           
 
         </tbody>
     </table>
 </body>
-</html>
+</html> 
