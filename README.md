@@ -4,7 +4,7 @@
 Soy una persona enfocada en el aprendizaje y de aprender nuevas tecnologias, me considero una persona apasionada e intituiva, siempre con la mejor disposicion para aprender nuevos temas 🧠
 ### Mis conocimientos: 
 - Tengo varios reconocimientos y certificados en el apartado de catrastro por el IGAC
-- Manejo HTML 5, Python y CSS
+- Manejo HTML 5, Python, JavaScript, SQL(mysql) y CSS
 
 *Un hombre que se atreve a perder una hora no ha descubierto el valor de la vida*
 **Charles Darwin**
